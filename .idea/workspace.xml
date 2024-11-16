@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ca76b13-ae2e-4c09-89c7-0478354850a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoginPage.iml" afterDir="false" />
+    <list default="true" id="1ca76b13-ae2e-4c09-89c7-0478354850a8" name="Changes" comment="Basic loginPage made with java.">
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IDandPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SignUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WelcomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loginPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/themeChanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IDandPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IDandPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WelcomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WelcomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +27,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="bmusavuli29@gmail.com" />
+        <option value="CyberHell2-0" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-22/lib/src.zip!/java.desktop/java/awt/event/MouseAdapter.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -63,9 +70,15 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\bmusa\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="fe41ee6b-544b-478d-bc4b-e118b9f77798" reportId="LoginPage/qodana/2024-11-06" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -102,10 +115,41 @@
       <workItem from="1730888486368" duration="50000" />
       <workItem from="1730908924861" duration="324000" />
       <workItem from="1730917653758" duration="174000" />
+      <workItem from="1730917838966" duration="2881000" />
+      <workItem from="1731182160633" duration="2247000" />
+      <workItem from="1731242327669" duration="3191000" />
+      <workItem from="1731390086249" duration="601000" />
+      <workItem from="1731403678944" duration="19437000" />
+      <workItem from="1731530833302" duration="3775000" />
+      <workItem from="1731782419238" duration="7700000" />
     </task>
+    <task id="LOCAL-00001" summary="Basic loginPage made with java.">
+      <option name="closed" value="true" />
+      <created>1730918082869</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730918082869</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic loginPage made with java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic loginPage made with java." />
   </component>
 </project>

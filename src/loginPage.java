@@ -1,5 +1,4 @@
 import org.jetbrains.annotations.NotNull;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -18,10 +17,11 @@ public class loginPage implements ActionListener {
     JLabel userPasswordLabel = new JLabel("password");
     JLabel messageLabel = new JLabel("");
 
-    HashMap<String,String>  logininfo;
-    loginPage(HashMap<String,String> logininforiginal){
-        logininfo = logininforiginal;
+    HashMap<String,String> loginInfo;
 
+    loginPage(HashMap<String,String> logininforiginal){
+
+        loginInfo = logininforiginal;
         userIDLabel.setBounds(50,100,75,25);
         userIDLabel.setForeground(Color.BLACK);
         userIDLabel.setFont(new Font("Arial",Font.BOLD,15));
@@ -35,6 +35,7 @@ public class loginPage implements ActionListener {
 
         userIDField.setBounds(125,100,200,25);
         userPasswordFielD.setBounds(125,150,200,25);
+        userPasswordFielD.setEchoChar('*');
 
         loginButton.setBounds(225,200,100,25);
         loginButton.setFont(new Font(null,Font.BOLD,18));
@@ -44,6 +45,8 @@ public class loginPage implements ActionListener {
         JLabel Sign_up = new JLabel("SIGN UP");
         Sign_up.setForeground(Color.BLACK);
         Sign_up.setFont(new Font("Arial",Font.BOLD,15));
+        Sign_up.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        Sign_up.setBounds(200, 230, 200, 50);
         Sign_up.addMouseListener(new MouseAdapter() {
             public void mouseClicked(MouseEvent e) {
                 if (e.getSource() == Sign_up) {
@@ -80,23 +83,7 @@ public class loginPage implements ActionListener {
         Container kdkd = frame.getContentPane();
         kdkd.setBackground(Color.LIGHT_GRAY);
     }
-    private @NotNull JLabel getjLabel() {
-        JLabel Sign_up = new JLabel("SIGN UP");
-        Sign_up.setForeground(Color.BLACK);
-        Sign_up.setFont(new Font("Arial",Font.BOLD,15));
-        Sign_up.addMouseListener(new MouseAdapter() {
-            public void mouseClicked(MouseEvent e) {
-                if (e.getSource() == Sign_up) {
-                    SignUp SignUpWindow = new SignUp();
-                    frame.dispose();
 
-                }
-            }
-        });
-        Sign_up.setCursor(new Cursor(Cursor.HAND_CURSOR));
-        Sign_up.setBounds(200, 230, 200, 50);
-        return Sign_up;
-    }
     @Override
     public void actionPerformed(@NotNull ActionEvent e) {
         if (e.getSource() == resetButton) {
@@ -106,8 +93,8 @@ public class loginPage implements ActionListener {
         if (e.getSource() == loginButton) {
             String userID = userIDField.getText();
             String password = String.valueOf(userPasswordFielD.getPassword());
-            if (logininfo.containsKey(userID)) {
-                if (logininfo.get(userID).equals(password)) {
+            if (loginInfo.containsKey(userID)) {
+                if (loginInfo.get(userID).equals(password)) {
                     messageLabel.setText("Login Successful");
                     frame.dispose();
                     messageLabel.setForeground(Color.GREEN);
